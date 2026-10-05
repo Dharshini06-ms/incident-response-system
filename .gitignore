@@ -1,36 +1,18 @@
-HELP.md
+# Java / Spring Boot
 target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+Module1-SpringBoot/target/
+.idea/
 *.iml
-*.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-ai-engine/venv/
-ai-engine/__pycache__/
-ai-engine/.venv/
+# Python
+Module2-AIEngine/__pycache__/
+Module2-AIEngine/*.pyc
 
-### VS Code ###
-.vscode/
+# React
+Module4-Dashboard/node_modules/
+Module4-Dashboard/dist/
+
+# Logs
+*.log
+hs_err_pid*
+replay_pid*
